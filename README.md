@@ -6,6 +6,17 @@ Online Shopping purchasing behaviour was collected from a website over a 1 year 
 A model was built using the given information to determine if the visit will end with an item being purchased.
 
 
+### Contents : 
+1. [Assumptions](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/README.md#assumptions)
+1. [Key Insights from modeling the data](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/README.md#key-insights-from-modeling-the-data)
+1. [Data](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/README.md#data)
+1. [Key features that drove analysis](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/README.md#key-features-that-drove-analysis)
+1. [Modeling Pipeline](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/README.md#modeling-pipeline)
+1. [Final model](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/README.md#final-model)
+1. [Conclusions and focus points](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/README.md#conclusions-and-focus-points)
+1. [Additional improvements](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/README.md#additional-improvements)
+
+
 ## Assumptions
 
 - Data is representative of the whole population
@@ -26,7 +37,6 @@ The dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/Online+S
 	- Odds of a purchase increase by over 250%
 	- Whereas December immediately drops the odds by 12%
 
-	
 
 
 ## Data
