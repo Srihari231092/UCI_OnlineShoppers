@@ -48,6 +48,85 @@ Visits which generated revenue had a marked increase in the number of informatio
 
 The higher the number of informational and product pages visited, the more likely the visit ended with a purchase
 
+### Bounce rates and page values
+
+Visitors entering sites with lower bounce rates, or higher page values, were more likely to generate revenue
+ 
+### Monthly distribution
+
+While most sales happen in November, there is a large rise of traffic in the months of  March, May and December, but sales are not proportionately rising
+
+## Modeling Pipeline
+
+The filtered variables were prepared for modeling through a preprocessing pipeline
+
+### Feature selection - I
+
+Numerical columns were subject to correlation analysis to filter out highly correlated variables
+
+Categorical variables were subject to Chi Square tests against the Revenue variable
+
+### Clustering
+
+To visualize potential clustering of the preprocessed data, it was projected into a low dimensional space using tSNE and plotted
+
+Clustering algorithms like KMeans and DBSCAN could not form any significant groupings on the dataset
+
+### Feature selection - II
+
+The preprocessed data was classified using Logistic regression to establish a baseline, and to find significant features
+
+
+Upon evaluating multiple feature selection methods, it was found that using the significant features, combined with weighting the desired Revenue group gave the best result
+
+
+### Classification 
+
+In a similar fashion, multiple classifiers were evaluated, with metrics and trade offs analyzed for each algorithm
+
+
+
+
+While F1 scores were comparable, Precision and Recall values were deviant between each algorithm.
+The final choice of algorithm was Logistic Regression to also retain interpretability.
+
+ 
+## Final model
+
+The Logistic Regression model allowed us to retain comparable F1 scores, and study the effect of significant features on Revenue
+
+
+
+- Page Values have the most positive effect on generating Revenue, increasing odds by upto 8 times for each 18 units.
+Similarly, the most deleterious effect is from Bounce Rates, where an increase in 0.04 reduces the odds by nearly 45%.
+
+- In November, the odds of a purchase can increase by 275% compared to the prior months. Whereas in December, the odds can drop by 12%
+
+
+## Conclusions and focus points
+
+1. <b>Pages with lower bounce rates were shown to be a strong indicator of whether the visit generates revenue</b>
+	- A drop in bounce rates by as much as 0.04 increases the odds of a customer making a purchase by 55%
+	- Analysing features of pages with lower bounce rates, can provide further insights
+1. <b>Higher Page Value is a strong indicator of whether the visit generates revenue</b>
+	- 43 percent of all visits generate revenue for pages whose Page Value score is greater than 0
+	- An increase of 19 units in Page Value, increases the odds of a customer making a purchase by 8 times
+1. <b>November generates most favorable traffic ratios, but months such as December have a large amount of traffic as well</b>
+	- Odds of a purchase in November increase by 275% compared to the prior months
+	- Traffic in December can be targeted for conversion to generate more Revenue
+	
+
+## Additional improvements
+
+Further improvements can be made for model generalization and improving metrics
+
+ - More complex feature engineering
+ - Focus on non-linear classifiers 
+ - Increase granularity of data collection (e.g. weekly level)
+ - Collect more samples
+ - Acquire different dimensions and features (for example, page level information)
+
+
 
 
 
