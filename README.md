@@ -16,16 +16,16 @@ A model was built using the given information to determine if the visit will end
 The dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset)
 
 ## Key Insights from modeling the data
-
-1. <b>Pages with lower bounce rates were shown to be a strong indicator of whether the visit generates revenue</b>
-	- A drop in bounce rates by as much as 0.04 increases the odds of a customer making a purchase by 55%
-	- Analysing features of pages with lower bounce rates, can provide further insights
-1. <b>Higher Page Value is a strong indicator of whether the visit generates revenue</b>
+	
+1. <b>The lower the bounce rate, the better</b>
+	- A drop in bounce rates by 0.04 increases the odds of a customer making a purchase by 54%
+1. <b>An increase in Page Value increases the odds of Revenue</b>
 	- 43 percent of all visits generate revenue for pages whose Page Value score is greater than 0
-	- An increase of 19 units in Page Value, increases the odds of a customer making a purchase by 8 times
-1. <b>November generates most favorable traffic ratios, but months such as December have a large amount of traffic as well</b>
-	- Odds of a purchase in November increase by 275% compared to the prior months
-	- Traffic in December can be targeted for conversion to generate more Revenue
+	- Odds of a purchase can increase by up to 8 times
+1. <b>November has the most favorable traffic ratios, with conversion opportunities in December</b>
+	- Odds of a purchase increase by over 250%
+	- Whereas December immediately drops the odds by 12%
+
 	
 
 
