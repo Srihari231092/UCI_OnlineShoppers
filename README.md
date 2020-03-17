@@ -49,7 +49,7 @@ Visits which generated revenue had a marked increase in the number of informatio
 
 The higher the number of informational and product pages visited, the more likely the visit ended with a purchase
 
-![alt_text](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/res/img/info_prod.png)
+![alt_text](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/res/img/info_prod.PNG)
 
 ### Bounce rates and page values
 
