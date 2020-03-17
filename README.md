@@ -73,6 +73,8 @@ While most sales happen in November, there is a large rise of traffic in the mon
 
 ![alt_text](https://github.com/Srihari231092/UCI_OnlineShoppers/blob/master/res/img/month.png)
 
+There is definitely a potential conversion opportunity in the months of March, May and December. 
+
 
 ## Modeling Pipeline
 
