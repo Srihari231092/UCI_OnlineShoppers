@@ -1,4 +1,4 @@
-# Online Shoppers Purchasing Intention Dataset
+# Online Shoppers Purchasing Intention
 ----------
 
 Online Shopping purchasing behaviour was collected from a website over a 1 year period, and marked whether the visit ended in generating revenue or not. 
